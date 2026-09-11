@@ -10,4 +10,5 @@ class Solution:
             s[left], s[right] = s[right], s[left]
             left += 1
             right -= 1
+#btw, s[:] means all of s, and thats how you assign it in case you dont want to use the two-pointers approach
 
